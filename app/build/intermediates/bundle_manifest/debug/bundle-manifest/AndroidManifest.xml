@@ -22,7 +22,9 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.htc.ciberrateestimator.LoginActivity" />
+        <activity
+            android:name="com.htc.ciberrateestimator.LoginActivity"
+            android:screenOrientation="portrait" />
         <activity android:name="com.htc.ciberrateestimator.BaseActivity" />
         <activity
             android:name="com.htc.ciberrateestimator.JobTitleActivity"

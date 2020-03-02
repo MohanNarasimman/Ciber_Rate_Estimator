@@ -13,11 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".LoginActivity"></activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".BaseActivity" />
         <activity
             android:name=".JobTitleActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".JobLevelActivity"
             android:screenOrientation="portrait" />
@@ -37,6 +40,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"></activity>
