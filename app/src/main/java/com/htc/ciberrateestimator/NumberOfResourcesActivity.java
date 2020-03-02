@@ -47,6 +47,7 @@ public class NumberOfResourcesActivity extends BaseActivity {
     SharedPreferences sharedPreferences;
     EstimateDatabase estimateDatabase;
     String newDate;
+    TextView tvUsername;
 
 
     @Override
@@ -54,12 +55,12 @@ public class NumberOfResourcesActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_number_of_resources);
         apiInterface = ApiClient.getClient().create(ApiInterface.class);
-
         estimateDatabase = EstimateDatabase.getInstance(this);
 
+        tvUsername = findViewById(R.id.tvUsername);
+        tvUsername.setText(getString(R.string.welcome,getIntent().getStringExtra(getString(R.string.USERNAME).trim())));
 
         sharedPreferences = getApplicationContext().getSharedPreferences(SHAREDPREF, 0);
-
         if (sharedPreferences.getString("openingValue", "").equals("opened")) {
             //call the version service and check
             getVersionCheck();
@@ -97,7 +98,6 @@ public class NumberOfResourcesActivity extends BaseActivity {
         nextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 if (noOfResources > 0) {
                     if (!sharedPreferences.getString("openingValue", "").equals("opened")) {
                         if (isNetworkConnected()) {
@@ -294,5 +294,6 @@ public class NumberOfResourcesActivity extends BaseActivity {
     @Override
     public void onBackPressed() {
         moveTaskToBack(true);
+//        super.onBackPressed();
     }
 }

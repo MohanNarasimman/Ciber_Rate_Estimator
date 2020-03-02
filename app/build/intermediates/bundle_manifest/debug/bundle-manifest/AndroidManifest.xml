@@ -22,11 +22,11 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.htc.ciberrateestimator.LoginActivity" />
         <activity android:name="com.htc.ciberrateestimator.BaseActivity" />
         <activity
             android:name="com.htc.ciberrateestimator.JobTitleActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.htc.ciberrateestimator.JobLevelActivity"
             android:screenOrientation="portrait" />
@@ -48,8 +48,7 @@
         </activity>
         <activity
             android:name="com.htc.ciberrateestimator.MainActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
 
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"

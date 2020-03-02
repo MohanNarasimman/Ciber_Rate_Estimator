@@ -3,7 +3,7 @@
     package="com.htc.ciberrateestimator">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,17 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".BaseActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".BaseActivity" />
         <activity
             android:name=".JobTitleActivity"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".JobLevelActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SelectAreaActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".NumberOfResourcesActivity"
             android:screenOrientation="portrait" />
@@ -39,9 +39,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait" >
-
-        </activity>
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

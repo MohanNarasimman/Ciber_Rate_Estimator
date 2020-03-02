@@ -18,7 +18,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 overridePendingTransition(0, 0);
-                startActivity(new Intent(SplashActivity.this, NumberOfResourcesActivity.class));
+                startActivity(new Intent(SplashActivity.this, LoginActivity.class));
 
             }
         }, 2000);

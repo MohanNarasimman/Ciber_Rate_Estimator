@@ -76,12 +76,20 @@
         "source": "D:\\Ciber Rate Estimator\\Github Project\\Branch\\app\\src\\main\\res\\layout\\activity_select_area.xml"
     },
     {
+        "merged": "D:\\Ciber Rate Estimator\\Github Project\\Branch\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_exit.xml.flat",
+        "source": "D:\\Ciber Rate Estimator\\Github Project\\Branch\\app\\src\\main\\res\\drawable\\ic_exit.xml"
+    },
+    {
         "merged": "D:\\Ciber Rate Estimator\\Github Project\\Branch\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "D:\\Ciber Rate Estimator\\Github Project\\Branch\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Ciber Rate Estimator\\Github Project\\Branch\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "D:\\Ciber Rate Estimator\\Github Project\\Branch\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Ciber Rate Estimator\\Github Project\\Branch\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\Ciber Rate Estimator\\Github Project\\Branch\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "D:\\Ciber Rate Estimator\\Github Project\\Branch\\app\\build\\intermediates\\res\\merged\\debug\\drawable_left_arrowxhdpi.png.flat",

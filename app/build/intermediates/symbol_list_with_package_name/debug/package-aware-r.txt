@@ -1068,6 +1068,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_exit
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
@@ -1174,6 +1175,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btLogin
 id button1
 id buttonPanel
 id center
@@ -1214,6 +1216,8 @@ id edit_query
 id end
 id enterAlways
 id enterAlwaysCollapsed
+id etPassword
+id etUsername
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1242,6 +1246,7 @@ id item_touch_helper_previous_elevation
 id ivAddItem
 id ivDeleteCard
 id ivLabel
+id ivLogout
 id ivRateBack
 id ivReset
 id ivSearchJobTitle
@@ -1252,12 +1257,14 @@ id largeLabel
 id left
 id line1
 id line3
+id linearLayout
 id listMode
 id list_item
 id listview_background_shape
 id llArea
 id llJobLevel
 id llJobTitle
+id llLogin
 id masked
 id message
 id middle
@@ -1388,6 +1395,7 @@ id tvNoItemFound
 id tvNoOfResources
 id tvNoResultFound
 id tvResource
+id tvUsername
 id unchecked
 id uniform
 id unlabeled
@@ -1455,6 +1463,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_job_level
 layout activity_job_title
+layout activity_login
 layout activity_main
 layout activity_number_of_resources
 layout activity_select_area
@@ -1494,6 +1503,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+string USERNAME
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1535,10 +1545,12 @@ string fb
 string hide_bottom_view_on_scroll_behavior
 string job_level
 string job_title
+string login
 string mtrl_chip_close_icon_content_description
 string nb
 string next
 string no_results_found
+string password
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -1551,6 +1563,7 @@ string search
 string search_menu_title
 string select_area
 string status_bar_notification_info_overflow
+string username
 string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

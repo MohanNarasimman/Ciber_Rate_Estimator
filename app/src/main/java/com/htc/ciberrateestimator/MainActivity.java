@@ -36,10 +36,12 @@ import com.htc.ciberrateestimator.room.model.SalaryRoomModel;
 
 import org.jetbrains.annotations.NotNull;
 
+import java.security.PrivateKey;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
+import kotlin.jvm.internal.PropertyReference0Impl;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -71,6 +73,8 @@ public class MainActivity extends BaseActivity implements RateEstimateDeleteList
     private int selectedEstimate = 0;
     private EstimateDatabase estimateDatabase;
 
+
+    private ImageView ivLogout;
     private double fixedPercentage;
     private double fixedGP;
     private long fixedEstimatedHours;
@@ -83,6 +87,7 @@ public class MainActivity extends BaseActivity implements RateEstimateDeleteList
         setContentView(R.layout.activity_main);
 
         estimateDatabase = EstimateDatabase.getInstance(this);
+        ivLogout = findViewById(R.id.ivLogout);
 
         clRateEstimator = findViewById(R.id.clRateEstimator);
         noOfResources = getIntent().getIntExtra("noOfResources", 0);
@@ -163,6 +168,24 @@ public class MainActivity extends BaseActivity implements RateEstimateDeleteList
                             .setNegativeButton("NO", null)
                             .show();
                 }
+            }
+        });
+
+        ivLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                new AlertDialog.Builder(MainActivity.this)
+                        .setMessage("Are you sure you want to exit?")
+                        .setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                                finish();
+                                startActivity(intent);
+                            }
+                        })
+                        .setNegativeButton("NO", null)
+                        .show();
             }
         });
 

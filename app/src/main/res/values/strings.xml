@@ -9,10 +9,14 @@
     <string name="search">Search</string>
     <string name="no_results_found">No results found</string>
     <string name="rate_estimator">Rate Estimator</string>
-    <string name="welcome">Welcome</string>
+    <string name="welcome">Welcome %1$s!</string>
     <string name="please_select_nno_of_resources">Please Select \nNo. of Resources</string>
     <string name="next">Next</string>
     <string name="please_press_to_add_resources">No resources found</string>
     <string name="fb">FB</string>
     <string name="nb">NB</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="USERNAME">username</string>
 </resources>
