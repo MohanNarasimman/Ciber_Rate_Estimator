@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ciber Rate Estimator</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_area">Select Area</string>
+    <string name="done">Done</string>
+    <string name="area_1">Area 1</string>
+    <string name="job_level">Job Level</string>
+    <string name="job_title">Job Title</string>
+    <string name="search">Search</string>
+    <string name="no_results_found">No results found</string>
+    <string name="rate_estimator">Rate Estimator</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_select_nno_of_resources">Please Select \nNo. of Resources</string>
+    <string name="next">Next</string>
+    <string name="please_press_to_add_resources">No resources found</string>
+    <string name="fb">FB</string>
+    <string name="nb">NB</string>
+</resources>

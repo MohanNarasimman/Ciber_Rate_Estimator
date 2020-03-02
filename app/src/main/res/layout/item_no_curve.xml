@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <LinearLayout
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="@font/opensans_bold"
+                android:id="@+id/tvResource"
+                android:textColor="#4c4c7f"
+                android:textSize="@dimen/dimen_16sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"/>
+
+            <ImageView
+                android:paddingEnd="-16dp"
+                android:id="@+id/ivDeleteCard"
+                android:layout_gravity="center"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_weight="0.1"
+                android:src="@drawable/delete_iconxhdpi"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llArea"
+            android:paddingTop="@dimen/dimen_16dp"
+            android:paddingBottom="@dimen/dimen_12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginEnd="@dimen/dimen_12dp"
+                android:id="@+id/tvArea"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="#666666"
+                android:textSize="@dimen/dimen_14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Area"/>
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_20dp"
+                    android:layout_height="@dimen/dimen_20dp"
+                    android:src="@drawable/right_arrowxhdpi"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:background="#628BCC"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+
+        <LinearLayout
+            android:id="@+id/llJobTitle"
+            android:paddingTop="@dimen/dimen_12dp"
+            android:paddingBottom="@dimen/dimen_12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginEnd="@dimen/dimen_12dp"
+                android:id="@+id/tvJobTitle"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="#666666"
+                android:textSize="@dimen/dimen_14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Job Title"/>
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_20dp"
+                    android:layout_height="@dimen/dimen_20dp"
+                    android:src="@drawable/right_arrowxhdpi"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:background="#628BCC"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+
+        <LinearLayout
+            android:id="@+id/llJobLevel"
+            android:paddingTop="@dimen/dimen_12dp"
+            android:paddingBottom="@dimen/dimen_12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginEnd="@dimen/dimen_12dp"
+                android:id="@+id/tvJobLevel"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="#666666"
+                android:textSize="@dimen/dimen_14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Job Level"/>
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_20dp"
+                    android:layout_height="@dimen/dimen_20dp"
+                    android:src="@drawable/right_arrowxhdpi"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:background="#628BCC"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="#4c4c7f"
+                android:textSize="@dimen/dimen_14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minimum Bill Rate :"/>
+
+            <TextView
+                android:textColor="#4c4c7f"
+                android:text="$0"
+                android:id="@+id/tvMinimumBillRate"
+                android:gravity="end|center"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="24sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.55"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="horizontal">
+
+
+           <LinearLayout
+               android:layout_marginEnd="@dimen/dimen_20dp"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GP%"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textColor="#4c4c7f"
+                    android:textSize="@dimen/dimen_12sp"/>
+
+                <EditText
+                    android:maxLength="5"
+                    android:digits="1234567890."
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/edGp"
+                    android:imeOptions="actionDone"
+                    android:background="@null"
+                    android:fontFamily="@font/opensans_bold"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="0dp"
+                    android:paddingEnd="0dp"
+                    android:paddingStart="2dp"
+                    android:textColor="#666666"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_20sp"/>
+
+               <ImageView
+                   android:background="#628BCC"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.5dp"/>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.0025"
+                android:layout_height="match_parent"
+                android:src="#628BCC"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_marginStart="@dimen/dimen_20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estimated Hours"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textColor="#4c4c7f"
+                    android:textSize="@dimen/dimen_12sp"/>
+
+                <EditText
+                    android:maxLength="4"
+                    android:digits="1234567890"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:id="@+id/edEstimatedHours"
+                    android:imeOptions="actionDone"
+                    android:background="@null"
+                    android:fontFamily="@font/opensans_bold"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="0dp"
+                    android:paddingEnd="0dp"
+                    android:paddingStart="2dp"
+                    android:textColor="#666666"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_20sp"/>
+
+                <ImageView
+                    android:background="#628BCC"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:background="#628BCC"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+</LinearLayout>

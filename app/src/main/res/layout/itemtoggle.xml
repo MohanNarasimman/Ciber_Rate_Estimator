@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|top"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvFB"
+        android:layout_marginEnd="-1dp"
+        android:textColor="@color/lightBlue"
+        android:textSize="@dimen/dimen_14sp"
+        android:background="@drawable/item_round_left_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:paddingStart="@dimen/dimen_24dp"
+        android:paddingTop="@dimen/dimen_8dp"
+        android:paddingEnd="@dimen/dimen_24dp"
+        android:paddingBottom="@dimen/dimen_8dp"
+        android:text="@string/fb" />
+
+
+
+    <TextView
+        android:id="@+id/tvNB"
+        android:layout_marginStart="-1dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:background="@drawable/ic_round_right_blue"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:paddingStart="@dimen/dimen_24dp"
+        android:paddingTop="@dimen/dimen_8dp"
+        android:paddingEnd="@dimen/dimen_24dp"
+        android:paddingBottom="@dimen/dimen_8dp"
+        android:text="@string/nb" />
+
+</LinearLayout>
