@@ -53,12 +53,12 @@
             android:gravity="center_horizontal|center_vertical" />
 
         <ImageView
-            android:layout_marginStart="@dimen/dimen_12dp"
+            android:layout_marginStart="@dimen/dimen_16dp"
             android:id="@+id/ivLogout"
             android:layout_gravity="center_horizontal|center_vertical"
             android:src="@drawable/ic_exit"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:gravity="center_horizontal|center_vertical" />
 
     </LinearLayout>
