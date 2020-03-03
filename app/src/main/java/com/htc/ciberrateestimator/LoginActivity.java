@@ -51,7 +51,7 @@ public class LoginActivity extends BaseActivity {
                     String username = etUsername.getText().toString().trim();
                     String password = etPassword.getText().toString().trim();
 
-                    if (password.equals(map.get(username))) {
+                    if (map.get(username).equals(password)) {
                         Intent intent = new Intent(LoginActivity.this, NumberOfResourcesActivity.class);
                         intent.putExtra(getString(R.string.USERNAME), "" + username);
                         startActivity(intent);
