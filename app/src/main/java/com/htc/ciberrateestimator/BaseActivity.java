@@ -50,6 +50,7 @@ public class BaseActivity extends AppCompatActivity {
 
     public boolean isNetworkConnected() {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        assert cm != null;
         return cm.getActiveNetworkInfo() != null;
     }
 }
